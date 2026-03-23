@@ -1,0 +1,420 @@
+<Array>
+<Name>slmDataSetsArrayIn</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>slmDataSetIn</Name>
+<NumElts>14</NumElts>
+<Cluster>
+<Name>BeamParameters</Name>
+<NumElts>6</NumElts>
+<Array>
+<Name>amplitudeMatrix</Name>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<CSG>
+<Name></Name>
+<Val></Val>
+</CSG>
+</Array>
+<DBL>
+<Name>SLM width (m)</Name>
+<Val>1.53600000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>SLM height (m)</Name>
+<Val>8.64000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>wavelength (m)</Name>
+<Val>6.33000000000000E-7</Val>
+</DBL>
+<U32>
+<Name>Resolution x</Name>
+<Val>1920</Val>
+</U32>
+<U32>
+<Name>Resolution y</Name>
+<Val>1080</Val>
+</U32>
+</Cluster>
+<Cluster>
+<Name>BeamControl</Name>
+<NumElts>5</NumElts>
+<DBL>
+<Name>xCenter</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>yCenter</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>xAngle_mRad</Name>
+<Val>4.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>yAngle_mRad</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>beamWaist</Name>
+<Val>5.99999999999912E-4</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>SLM Settings</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>resizeTo</Name>
+<Choice>No Resize</Choice>
+<Choice>Width of Display</Choice>
+<Choice>Height of Display</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>displayOn</Name>
+<Choice>Default</Choice>
+<Choice>All 1st Monitor</Choice>
+<Choice>All 2nd Monitor</Choice>
+<Choice>All 3rd Monitor</Choice>
+<Choice>All 4th Monitor</Choice>
+<Val>2</Val>
+</EW>
+<Cluster>
+<Name>Top Left of Hologram</Name>
+<NumElts>2</NumElts>
+<I16>
+<Name>Horizontal</Name>
+<Val>70</Val>
+</I16>
+<I16>
+<Name>Vertical</Name>
+<Val>85</Val>
+</I16>
+</Cluster>
+</Cluster>
+<DBL>
+<Name>Gamma Function</Name>
+<Val>245.00000000000000</Val>
+</DBL>
+<EW>
+<Name>SLM colour coding</Name>
+<Choice>8-bit</Choice>
+<Choice>10-bit (Santec)</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>Masking?</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Calibration?</Name>
+<Val>0</Val>
+</Boolean>
+<Array>
+<Name>Modes</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>modeCluster</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>type</Name>
+<Choice>Azimuth Mode</Choice>
+<Choice>LG Mode</Choice>
+<Choice>HG Mode</Choice>
+<Val>1</Val>
+</EW>
+<I32>
+<Name>m or L</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>n or P</Name>
+<Val>0</Val>
+</I32>
+<DBL>
+<Name>weight</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>modeCluster</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>type</Name>
+<Choice>Azimuth Mode</Choice>
+<Choice>LG Mode</Choice>
+<Choice>HG Mode</Choice>
+<Val>1</Val>
+</EW>
+<I32>
+<Name>m or L</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>n or P</Name>
+<Val>0</Val>
+</I32>
+<DBL>
+<Name>weight</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
+<EW>
+<Name>Holo</Name>
+<Choice>Show</Choice>
+<Choice>Save BMP</Choice>
+<Val>0</Val>
+</EW>
+<Path>
+<Name>BMP filePath</Name>
+<Val>C:\Users\science\Desktop\Filippo The 2nd\LabVIEW\Holos\SLMA\HG_2_2.bmp</Val>
+</Path>
+<Cluster>
+<Name>Power Meter Settings</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>Visa In</Name>
+<RefKind>VISA</RefKind>
+<Val>USB0::0x1313::0x8078::P0014115::INSTR</Val>
+</Refnum>
+<I32>
+<Name>Averaging Rate</Name>
+<Val>10</Val>
+</I32>
+<I32>
+<Name>Graph Length</Name>
+<Val>1000</Val>
+</I32>
+</Cluster>
+<Boolean>
+<Name>Flip Image</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Mirror image</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Phase rotation</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>slmDataSetIn</Name>
+<NumElts>14</NumElts>
+<Cluster>
+<Name>BeamParameters</Name>
+<NumElts>6</NumElts>
+<Array>
+<Name>amplitudeMatrix</Name>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<CSG>
+<Name></Name>
+<Val></Val>
+</CSG>
+</Array>
+<DBL>
+<Name>SLM width (m)</Name>
+<Val>1.49800000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>SLM height (m)</Name>
+<Val>1.09200000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>wavelength (m)</Name>
+<Val>6.33000000000000E-7</Val>
+</DBL>
+<U32>
+<Name>Resolution x</Name>
+<Val>1400</Val>
+</U32>
+<U32>
+<Name>Resolution y</Name>
+<Val>1050</Val>
+</U32>
+</Cluster>
+<Cluster>
+<Name>BeamControl</Name>
+<NumElts>5</NumElts>
+<DBL>
+<Name>xCenter</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>yCenter</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>xAngle_mRad</Name>
+<Val>4.19700000000000</Val>
+</DBL>
+<DBL>
+<Name>yAngle_mRad</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>beamWaist</Name>
+<Val>1.10000000000000E-3</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>SLM Settings</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>resizeTo</Name>
+<Choice>No Resize</Choice>
+<Choice>Width of Display</Choice>
+<Choice>Height of Display</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>displayOn</Name>
+<Choice>Default</Choice>
+<Choice>All 1st Monitor</Choice>
+<Choice>All 2nd Monitor</Choice>
+<Choice>All 3rd Monitor</Choice>
+<Choice>All 4th Monitor</Choice>
+<Val>3</Val>
+</EW>
+<Cluster>
+<Name>Top Left of Hologram</Name>
+<NumElts>2</NumElts>
+<I16>
+<Name>Horizontal</Name>
+<Val>52</Val>
+</I16>
+<I16>
+<Name>Vertical</Name>
+<Val>-27</Val>
+</I16>
+</Cluster>
+</Cluster>
+<DBL>
+<Name>Gamma Function</Name>
+<Val>296.00000000000000</Val>
+</DBL>
+<EW>
+<Name>SLM colour coding</Name>
+<Choice>8-bit</Choice>
+<Choice>10-bit (Santec)</Choice>
+<Val>1</Val>
+</EW>
+<Boolean>
+<Name>Masking?</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Calibration?</Name>
+<Val>0</Val>
+</Boolean>
+<Array>
+<Name>Modes</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>modeCluster</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>type</Name>
+<Choice>Azimuth Mode</Choice>
+<Choice>LG Mode</Choice>
+<Choice>HG Mode</Choice>
+<Val>1</Val>
+</EW>
+<I32>
+<Name>m or L</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>n or P</Name>
+<Val>0</Val>
+</I32>
+<DBL>
+<Name>weight</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>modeCluster</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>type</Name>
+<Choice>Azimuth Mode</Choice>
+<Choice>LG Mode</Choice>
+<Choice>HG Mode</Choice>
+<Val>1</Val>
+</EW>
+<I32>
+<Name>m or L</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>n or P</Name>
+<Val>0</Val>
+</I32>
+<DBL>
+<Name>weight</Name>
+<Val>-1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
+<EW>
+<Name>Holo</Name>
+<Choice>Show</Choice>
+<Choice>Save BMP</Choice>
+<Val>0</Val>
+</EW>
+<Path>
+<Name>BMP filePath</Name>
+<Val>C:\Users\science\Desktop\Filippo The 2nd\LabVIEW\Holos\SLMA\HG_2_2.bmp</Val>
+</Path>
+<Cluster>
+<Name>Power Meter Settings</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>Visa In</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+<I32>
+<Name>Averaging Rate</Name>
+<Val>300</Val>
+</I32>
+<I32>
+<Name>Graph Length</Name>
+<Val>1000</Val>
+</I32>
+</Cluster>
+<Boolean>
+<Name>Flip Image</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Mirror image</Name>
+<Val>1</Val>
+</Boolean>
+<DBL>
+<Name>Phase rotation</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
